@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+        "sidebar nav"
+        "sidebar main-content";
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main-content;
+}
