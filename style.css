@@ -24,6 +24,10 @@ body {
     color: white;
 }
 
+.sidebar li {
+    list-style: none;
+}
+
 nav {
     grid-area: nav;
 }
