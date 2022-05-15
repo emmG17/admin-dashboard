@@ -80,6 +80,20 @@ nav .user {
     display: flex;
 }
 
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 500px;
+    background-color: var(--tertiary-color);
+}
+
+.badge img {
+    width: 80%;
+}
+
 nav .username {
     display: flex;
     font-weight: 900;
