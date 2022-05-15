@@ -24,7 +24,15 @@ body {
     color: white;
 }
 
+.sidebar ul {
+    margin-bottom: 50px;
+}
+
 .sidebar li {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 10px;
     list-style: none;
 }
 
