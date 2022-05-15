@@ -11,18 +11,18 @@
             href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
             rel="stylesheet"
         />
-        
+
         <link rel="stylesheet" href="style.css" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav>
             <div class="search">
                 <!-- <label class="material-icons-outlined" for="search">search</label> -->
-                <span class="material-icons-outlined">
-                    search
-                    </span>
+                <span class="material-icons-outlined"> search </span>
                 <input type="text" class="searchbar" id="search" />
             </div>
             <div class="profile">
@@ -65,7 +65,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -78,7 +80,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -92,7 +96,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -106,7 +112,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -119,7 +127,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -133,7 +143,9 @@
                         </p>
                         <div class="status">
                             <span class="material-icons-outlined">grade</span>
-                            <span class="material-icons-outlined">visibility</span>
+                            <span class="material-icons-outlined"
+                                >visibility</span
+                            >
                             <span class="material-icons-outlined">share</span>
                         </div>
                     </div>
@@ -176,28 +188,36 @@
                     <h3 class="title">Trending</h3>
                     <div class="card">
                         <div class="user-info">
-                            <img src="" alt="user profile picture" />
+                            <div class="badge" style="background-color: var(--secondary-color);">
+                                <img src="./img/toucan.svg" alt="user profile picture"/>
+                            </div>
                             <div class="info">
                                 <p class="username">@Senate</p>
                                 <p class="description">Building an Empire</p>
                             </div>
                         </div>
                         <div class="user-info">
-                            <img src="" alt="user profile picture" />
+                            <div class="badge" style="background-color: var(--complement-color);">
+                                <img src="./img/hippo.svg" alt="user profile picture" />
+                            </div>
                             <div class="info">
                                 <p class="username">@DeathStar</p>
                                 <p class="description">A cool moon</p>
                             </div>
                         </div>
                         <div class="user-info">
-                            <img src="" alt="user profile picture" />
+                            <div class="badge" style="background-color: var(--primary-color);">
+                                <img src="./img/giraffe.svg" alt="user profile picture" />
+                            </div>
                             <div class="info">
                                 <p class="username">@Parsec</p>
                                 <p class="description">Not a time measure</p>
                             </div>
                         </div>
                         <div class="user-info">
-                            <img src="" alt="user profile picture" />
+                            <div class="badge" style="background-color: var(--tertiary-color);">
+                                <img src="./img/butterfly.svg" alt="user profile picture" />
+                            </div>
                             <div class="info">
                                 <p class="username">@Ewok</p>
                                 <p class="description">Fluffy warfare</p>
@@ -208,19 +228,41 @@
             </div>
         </main>
         <div class="sidebar">
-            <h1 class="title"><span class="material-icons-outlined">dashboard</span>Dashboard</h1>
+            <h1 class="title">
+                <span class="material-icons-outlined">dashboard</span>Dashboard
+            </h1>
             <ul class="options">
                 <li><span class="material-icons-outlined">home</span>Home</li>
-                <li><span class="material-icons-outlined">account_box</span>Profile</li>
-                <li><span class="material-icons-outlined">email</span>Messages</li>
-                <li><span class="material-icons-outlined">history</span>History</li>
-                <li><span class="material-icons-outlined">pending_actions</span>Tasks</li>
-                <li><span class="material-icons-outlined">groups</span>Communities</li>
+                <li>
+                    <span class="material-icons-outlined">account_box</span
+                    >Profile
+                </li>
+                <li>
+                    <span class="material-icons-outlined">email</span>Messages
+                </li>
+                <li>
+                    <span class="material-icons-outlined">history</span>History
+                </li>
+                <li>
+                    <span class="material-icons-outlined">pending_actions</span
+                    >Tasks
+                </li>
+                <li>
+                    <span class="material-icons-outlined">groups</span
+                    >Communities
+                </li>
             </ul>
             <ul class="settings">
-                <li><span class="material-icons-outlined">settings</span>Settings</li>
-                <li><span class="material-icons-outlined">help</span>Support</li>
-                <li><span class="material-icons-outlined">security</span>Privacy</li>
+                <li>
+                    <span class="material-icons-outlined">settings</span
+                    >Settings
+                </li>
+                <li>
+                    <span class="material-icons-outlined">help</span>Support
+                </li>
+                <li>
+                    <span class="material-icons-outlined">security</span>Privacy
+                </li>
             </ul>
         </div>
     </body>
