@@ -57,6 +57,8 @@ nav {
         "search profile"
         "menu menu";
     padding: 18px 32px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 nav .search {
