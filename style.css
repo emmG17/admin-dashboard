@@ -233,10 +233,15 @@ main .projects {
 .user-info {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .user-info .info {
-    width: 80%;
+    margin-left: 10px;
+}
+
+.user-info .info .username {
+    margin: 0;
 }
 
 .projects .description {
