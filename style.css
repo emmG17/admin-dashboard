@@ -1,13 +1,27 @@
+:root {
+    --primary-color: #28A17D;
+    --secondary-color: #3165A0;
+    --tertiary-color: #F4AC3C;
+    --complement-color: #F47D3C;
+    --grey-bkg: #e2e8f0;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: 
         "sidebar nav"
         "sidebar main-content";
+    font-family: 'Lato', sans-serif;
 }
 
 .sidebar {
     grid-area: sidebar;
+    background-color: var(--primary-color);
+    color: white;
 }
 
 nav {
@@ -16,4 +30,5 @@ nav {
 
 main {
     grid-area: main-content;
+    background-color: #e2e8f0;
 }
