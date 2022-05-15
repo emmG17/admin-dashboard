@@ -30,13 +30,48 @@ body {
 
 nav {
     grid-area: nav;
+    display: grid;
+    grid-template-rows: 3rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "search profile"
+        "menu menu";
+    padding: 18px 32px;
 }
 
 nav .searchbar {
+    grid-area: search;
     border: none;
     background: var(--grey-bkg);
     border-radius: 3rem;
     padding: 3px 8px;
+}
+
+nav .profile {
+    grid-area: profile;
+}
+
+nav .user {
+    display: flex;
+}
+
+nav .menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu .welcome {
+    display: flex;
+}
+
+.menu .actions ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu .actions li {    
+    padding: 0 1rem;
 }
 
 main {
