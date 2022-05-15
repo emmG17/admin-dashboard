@@ -77,4 +77,14 @@ nav .menu {
 main {
     grid-area: main-content;
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px;
+    padding: 12px;
+}
+
+main .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px
 }
