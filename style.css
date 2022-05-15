@@ -59,6 +59,12 @@ nav {
     padding: 18px 32px;
 }
 
+nav .search {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
 nav .searchbar {
     grid-area: search;
     border: none;
@@ -70,9 +76,15 @@ nav .searchbar {
 
 nav .profile {
     grid-area: profile;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 2rem;
+    margin-right: 4rem;
 }
 
 nav .profile .username {
+    margin-left: 10px;
     font-size: 0.8rem;
 }
 
