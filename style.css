@@ -32,6 +32,13 @@ nav {
     grid-area: nav;
 }
 
+nav .searchbar {
+    border: none;
+    background: var(--grey-bkg);
+    border-radius: 3rem;
+    padding: 3px 8px;
+}
+
 main {
     grid-area: main-content;
     background-color: #e2e8f0;
