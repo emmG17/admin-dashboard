@@ -32,7 +32,7 @@ nav {
     grid-area: nav;
     display: grid;
     grid-template-rows: 3rem 1fr;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
     grid-template-areas: 
         "search profile"
         "menu menu";
@@ -45,14 +45,24 @@ nav .searchbar {
     background: var(--grey-bkg);
     border-radius: 3rem;
     padding: 3px 8px;
+    width: 70%;
 }
 
 nav .profile {
     grid-area: profile;
 }
 
+nav .profile .username {
+    font-size: 0.8rem;
+}
+
 nav .user {
     display: flex;
+}
+
+nav .username {
+    display: flex;
+    font-weight: 900;
 }
 
 nav .menu {
@@ -61,17 +71,37 @@ nav .menu {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.menu .welcome {
+nav .welcome {
     display: flex;
 }
 
-.menu .actions ul {
-    display: flex;
+nav .welcome .user-greet > * {
+    font-weight: 900;
+    margin: 0;
+}
+
+nav .welcome .user-greet .greeting {
+    font-size: 10px;
+}
+
+nav .welcome .user-greet .username {
+    font-size: 1.2rem;
+}
+
+nav .actions ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
     list-style: none;
 }
 
-.menu .actions li {    
-    padding: 0 1rem;
+nav .actions li {    
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5rem;
 }
 
 main {
