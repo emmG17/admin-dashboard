@@ -128,10 +128,14 @@ main .projects {
     overflow: hidden;
 }
 
-.card .title {
-    margin-bottom: 0;
-    font-size: 1rem;
+.title {    
+    font-size: 1.2rem;
     font-weight: 900;
+}
+
+.card .title {
+    font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .card .description {
@@ -151,4 +155,16 @@ main .projects {
     height: 100%;
     width: 10px;
     background-color: var(--complement-color);
+}
+
+.announcement {
+    border-bottom: 1px solid var(--grey-bkg);
+}
+
+.announcements .announcement:last-of-type {
+    border: none;
+}
+
+.user-badge {
+    display: flex;
 }
