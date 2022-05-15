@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), #0d1f31);
     color: white;
 }
 
@@ -216,8 +216,8 @@ main .projects {
 
 .card .status {
     position: absolute;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: min(2rem, 10%);
+    right: min(2rem, 10%);
 }
 
 .card .status span {
